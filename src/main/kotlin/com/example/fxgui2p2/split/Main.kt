@@ -1,4 +1,4 @@
-package com.example.fxgui2p2
+package com.example.fxgui2p2.split
 
 import javafx.application.Application
 

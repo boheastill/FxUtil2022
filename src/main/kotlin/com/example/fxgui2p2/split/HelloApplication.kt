@@ -1,4 +1,4 @@
-package com.example.fxgui2p2
+package com.example.fxgui2p2.split
 
 import javafx.application.Application
 import javafx.fxml.FXMLLoader
@@ -21,12 +21,12 @@ class HelloApplication : Application() {
     override fun start(stage: Stage) {
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("hello-view.fxml"))
         val scene = Scene(fxmlLoader.load(), 320.0, 240.0)
-        stage.title = "Hello!"
+        stage.title = "pdf多线程切图器"
         stage.scene = scene
         stage.show()
     }
 }
 
- fun starta() {
+fun starta() {
     Application.launch(HelloApplication::class.java)
 }

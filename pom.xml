@@ -75,7 +75,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.fxgui2p2/com.example.fxgui2p2.Main</mainClass>
+                            <mainClass>com.example.fxgui2p2/com.example.fxgui2p2.split.Main</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
@@ -117,7 +117,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.fxgui2p2.Main</mainClass>
+                            <mainClass>com.example.fxgui2p2.split.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
