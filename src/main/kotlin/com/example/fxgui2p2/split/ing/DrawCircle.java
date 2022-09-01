@@ -107,4 +107,12 @@ public class DrawCircle extends JFrame {
 
         gh.fillRect(wPosition, hPosition, step, step);
     }
+
+    class png {
+        int wIdx;
+        int hIdx;
+        Color color;
+
+
+    }
 }
